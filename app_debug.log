@@ -1,0 +1,94 @@
+2025-01-28 11:54:52,950 [INFO] api.py:377 - Starting service initialization
+2025-01-28 11:54:52,950 [INFO] api.py:195 - Loading embedding model
+2025-01-28 11:54:52,965 [INFO] SentenceTransformer.py:208 - Use pytorch device_name: cpu
+2025-01-28 11:54:52,965 [INFO] SentenceTransformer.py:216 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-01-28 11:54:52,965 [DEBUG] connectionpool.py:1022 - Starting new HTTPS connection (1): huggingface.co:443
+2025-01-28 11:54:53,279 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-01-28 11:54:53,421 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-01-28 11:54:53,579 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-01-28 11:54:53,748 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-01-28 11:54:53,901 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-01-28 11:54:54,044 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-01-28 11:54:54,596 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-01-28 11:54:55,098 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6789
+2025-01-28 11:54:55,267 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6789
+2025-01-28 11:54:56,085 [INFO] api.py:203 - Model loaded successfully
+2025-01-28 11:54:56,085 [INFO] api.py:175 - Loading existing FAISS index from faiss_index_cosine.index
+2025-01-28 11:54:56,085 [DEBUG] api.py:185 - FAISS index status: 0 vectors loaded
+2025-01-28 11:54:56,085 [INFO] api.py:401 - Total loaded text chunks: 0
+2025-01-28 11:54:56,085 [INFO] api.py:408 - Service initialized successfully
+2025-01-28 11:56:47,680 [DEBUG] multipart.py:627 - Calling on_part_begin with no data
+2025-01-28 11:56:47,680 [DEBUG] multipart.py:624 - Calling on_header_field with data[36:55]
+2025-01-28 11:56:47,680 [DEBUG] multipart.py:624 - Calling on_header_value with data[57:96]
+2025-01-28 11:56:47,680 [DEBUG] multipart.py:627 - Calling on_header_end with no data
+2025-01-28 11:56:47,680 [DEBUG] multipart.py:627 - Calling on_headers_finished with no data
+2025-01-28 11:56:47,680 [DEBUG] multipart.py:624 - Calling on_part_data with data[100:262144]
+2025-01-28 11:56:47,696 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,700 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,700 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,703 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,703 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,720 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,729 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,729 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,734 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,737 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,737 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,744 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,744 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,744 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,744 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,744 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,761 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 11:56:47,762 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:152679]
+2025-01-28 11:56:47,762 [DEBUG] multipart.py:627 - Calling on_part_end with no data
+2025-01-28 11:56:47,762 [DEBUG] multipart.py:627 - Calling on_end with no data
+2025-01-28 11:56:47,762 [INFO] api.py:234 - PDF upload request received: file
+2025-01-28 11:56:47,762 [ERROR] api.py:239 - Invalid file type: file
+2025-01-28 13:27:44,092 [INFO] api.py:379 - Starting service initialization
+2025-01-28 13:27:44,108 [INFO] api.py:195 - Loading embedding model
+2025-01-28 13:27:44,108 [INFO] SentenceTransformer.py:208 - Use pytorch device_name: cpu
+2025-01-28 13:27:44,108 [INFO] SentenceTransformer.py:216 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-01-28 13:27:44,108 [DEBUG] connectionpool.py:1022 - Starting new HTTPS connection (1): huggingface.co:443
+2025-01-28 13:27:44,718 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-01-28 13:27:45,140 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-01-28 13:27:45,298 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-01-28 13:27:45,675 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-01-28 13:27:45,894 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-01-28 13:27:46,156 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-01-28 13:27:46,819 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-01-28 13:27:47,181 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6789
+2025-01-28 13:27:47,560 [DEBUG] connectionpool.py:475 - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6789
+2025-01-28 13:27:48,277 [INFO] api.py:203 - Model loaded successfully
+2025-01-28 13:27:48,277 [INFO] api.py:175 - Loading existing FAISS index from faiss_index_cosine.index
+2025-01-28 13:27:48,277 [DEBUG] api.py:185 - FAISS index status: 0 vectors loaded
+2025-01-28 13:27:48,277 [INFO] api.py:403 - Total loaded text chunks: 0
+2025-01-28 13:27:48,277 [INFO] api.py:410 - Service initialized successfully
+2025-01-28 13:28:19,745 [DEBUG] multipart.py:627 - Calling on_part_begin with no data
+2025-01-28 13:28:19,749 [DEBUG] multipart.py:624 - Calling on_header_field with data[36:55]
+2025-01-28 13:28:19,750 [DEBUG] multipart.py:624 - Calling on_header_value with data[57:96]
+2025-01-28 13:28:19,750 [DEBUG] multipart.py:627 - Calling on_header_end with no data
+2025-01-28 13:28:19,751 [DEBUG] multipart.py:627 - Calling on_headers_finished with no data
+2025-01-28 13:28:19,751 [DEBUG] multipart.py:624 - Calling on_part_data with data[100:262144]
+2025-01-28 13:28:19,752 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,752 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,752 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,752 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,768 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,768 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,768 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,768 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,768 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,768 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,768 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,784 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,784 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,784 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,784 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,784 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,784 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:262144]
+2025-01-28 13:28:19,784 [DEBUG] multipart.py:624 - Calling on_part_data with data[0:152679]
+2025-01-28 13:28:19,784 [DEBUG] multipart.py:627 - Calling on_part_end with no data
+2025-01-28 13:28:19,784 [DEBUG] multipart.py:627 - Calling on_end with no data
+2025-01-28 13:28:19,784 [INFO] api.py:234 - PDF upload request received: file
+2025-01-28 13:28:19,784 [ERROR] api.py:239 - Invalid file type: file
